@@ -1,8 +1,0 @@
-before_install:
-  - npm i -g npm@version-number
-language: node_js
-script:
-  - npm run build
-  - npm test
-node_js:
-  - 14
